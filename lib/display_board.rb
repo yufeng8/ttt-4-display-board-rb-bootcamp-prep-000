@@ -6,5 +6,5 @@ def display_board(board)
     row = board[i...i+3]
     row.join(' | ')
   end
-  rows.join('-'*11)
+  rows.join("\n" + '-'*11 + "\n")
 end
