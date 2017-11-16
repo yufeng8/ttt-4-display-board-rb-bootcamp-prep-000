@@ -8,3 +8,9 @@ def display_board(board)
   end
   rows.join("\n" + '-'*11 + "\n")
 end
+
+=begin
+def display_board(board)
+  " #{board[0]} | #{board[1]} | #{board[2]}\n" +
+  ""
+end
